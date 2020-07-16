@@ -1,0 +1,49 @@
+html {
+  margin: 0;
+  text-align: center;
+}
+body {
+  background: #6494ed;
+}
+h1 {
+  color: #f5f5f5;
+  background-color: #008080;
+  font-family: monospace;
+  font-style: italic;
+}
+#profile_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#bla_text {
+  display: inline-block;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 25px;
+}
+h3 {
+  font-weight: unset;
+  color: #f0f8ff;
+  margin-bottom: -5px;
+}
+hr {
+  border-top: 0.5 solid #ffffff;
+}
+#ol_center {
+  margin: 0 auto;
+}
+#ol_center li span {
+  margin-left: -230px;
+}
+#footer {
+  line-height: 80px;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: #f5f5f5;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
