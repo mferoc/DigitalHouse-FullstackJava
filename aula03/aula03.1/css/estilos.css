@@ -1,0 +1,80 @@
+body {
+  /* background-color: pink; */
+  font-family: sans-serif;
+}
+
+h1 {
+  color: dodgerblue;
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  color: rgba(187, 28, 28, 1);
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+/* Cor no formato Hexadecimal */
+/* color: #FFFFFF; */
+/* Cor no formato Sistema */
+/* color: red; */
+/* Cor no Formato RGB */
+/* color: rgb(187, 28, 28); */
+/* Cor no Formato RGBA ultima propriedade e a opacidade da minha cor 0 - 1*/
+/* color: rgb(187, 28, 28, 1); */
+
+mark {
+  background-color: blue;
+  color: white;
+}
+
+strong {
+  color: blue;
+}
+
+.subtitulo-amarelo {
+  color: yellow;
+}
+
+.subtitulo-verde {
+  color: green;
+}
+
+.subtitulo-azul {
+  color: blue;
+}
+
+/* input:focus {
+  background-color: aqua;
+}
+
+textarea:focus {
+  background-color: aqua;
+} */
+
+textarea:focus,
+input:focus {
+  background-color: aqua;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-enviar {
+  background-color: #78e08f;
+  padding: 10px;
+  width: 100px;
+}
+
+/* Quando a gente passa o mouse por cima do botao */
+.btn-enviar:hover {
+  background-color: #f6b93b;
+  color: white;
+}

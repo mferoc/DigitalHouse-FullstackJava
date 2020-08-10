@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+  <h1>Formulário de Contato</h1>
+
+  <form>
+    <div>
+      <span style="color: brown;">
+        Nome:
+      </span>
+      <input type="text" required>
+    </div>
+    <div>
+      <label for="txtSobreNome">
+        SobreNome:
+      </label>
+      <input type="text" id="txtSobreNome" required>
+    </div>
+    <div>
+      <label for="txtEmail">
+        Email
+      </label>
+      <input type="text" id="txtEmail" placeholder="teste@teste.com" required>
+    </div>
+    <div>
+      <label>
+        Assunto da mensagem
+      </label>
+      <select>
+        <option>Futebol</option>
+        <option>Programar</option>
+        <option>Estudar</option>
+      </select>
+    </div>
+    <div>
+      Gênero
+      <br>
+      <label for="rbtFeminino">
+        feminino
+      </label>
+      <input type="radio" name="genero" id="rbtFeminino">
+      <label for="rbtMasculino">
+        masculino
+      </label>
+      <input type="radio" name="genero" id="rbtMasculino">
+      <label for="rbtNaoInformado">
+        prefiro não responder
+      </label>
+      <input type="radio" name="genero" id="rbtNaoInformado">
+    </div>
+    <div>
+      <label>Passatempos</label>
+      <br>
+      PS4 <input type="checkbox" name="passatempo">
+      Xbox <input type="checkbox" name="passatempo">
+      C# <input type="checkbox" name="passatempo">
+    </div>
+    <div>
+      <label>Comentario</label>
+      <br>
+      <textarea cols="30" rows="10" required></textarea>
+    </div>
+    <div>
+      <button class="btn-enviar" type="submit">Enviar</button>
+      <button>Excluir</button>
+    </div>
+  </form>
+</body>
+
+</html>
